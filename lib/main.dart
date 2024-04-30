@@ -43,7 +43,7 @@ class Home extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Center(
               child: Container(
@@ -71,7 +71,7 @@ class Home extends StatelessWidget {
               child: Text(
                 "Dew Hunt",
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 24,
                   fontWeight: FontWeight.w700,
                   color: Colors.black,
                 ),
@@ -79,11 +79,11 @@ class Home extends StatelessWidget {
             ),
             const Center(
               child: Text(
-                "de.fog1553@gmail.com",
+                "dew.fog1553@gmail.com",
                 style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 18,
                   fontWeight: FontWeight.w700,
-                  color: Colors.grey,
+                  color: Colors.blueGrey,
                 ),
               ),
             ),
